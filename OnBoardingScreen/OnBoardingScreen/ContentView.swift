@@ -12,7 +12,7 @@ struct ContentView: View {
     var body: some View {
         HStack {
             VStack {
-                Text("Hello, world!")
+                Text("Main Content View")
                     .padding()
             }
         }
@@ -31,7 +31,7 @@ struct ContentView: View {
         VStack {
             Spacer()
             
-            Text("Launch Screen Content")
+            Text("OnBoarding View Content")
             
             Spacer()
             
